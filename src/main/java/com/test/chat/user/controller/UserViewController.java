@@ -15,4 +15,9 @@ public class UserViewController {
     public String showLoginPage() {
         return "login";
     }
+
+    @GetMapping("/home")
+    public String home() {
+        return "home"; // home.html 반환
+    }
 }
